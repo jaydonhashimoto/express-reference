@@ -40,7 +40,7 @@ router.post('/', (req, res) => {
     //add new member onto members array
     members.push(newMember);
     res.json(members);
-
+    // res.redirect('/');
 });
 
 //update member
